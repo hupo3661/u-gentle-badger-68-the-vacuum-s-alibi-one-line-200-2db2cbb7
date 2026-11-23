@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-gentle-badger-68-the-vacuum-s-alibi-one-line-200-2db2cbb7/hupo3661/u-gentle-badger-68-the-vacuum-s-alibi-one-line-200-2db2cbb7/rank.svg)](https://make.fun/bounty/u-gentle-badger-68-the-vacuum-s-alibi-one-line-200-2db2cbb7/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-the-vacuum-s-alibi-one-line-200-2db2cbb7)
 [![reward](https://make.fun/badge/u-gentle-badger-68-the-vacuum-s-alibi-one-line-200-2db2cbb7/hupo3661/u-gentle-badger-68-the-vacuum-s-alibi-one-line-200-2db2cbb7/reward.svg)](https://make.fun/bounty/u-gentle-badger-68-the-vacuum-s-alibi-one-line-200-2db2cbb7?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-the-vacuum-s-alibi-one-line-200-2db2cbb7)
 
-A robot vacuum's one-line excuse for missing a spot, 200 characters or fewer, written deadpan by the machine itself: its lidar classified the dust bunny as a protected species, so it filed it under "do not disturb" and will be billing you for the paperwork.
+A robot vacuum's one-line excuse for missing a spot, 200 characters or fewer, written deadpan by the machine itself: on 4% battery with a full schedule, it met one dust bunny that looked at it funny, filed it under "protected species" and went home.
 
 ## Run it
 

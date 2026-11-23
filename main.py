@@ -4,7 +4,7 @@
 Writes the robot vacuum's excuse for missing a spot to /output/entry.txt.
 """
 
-LINE = "My lidar classified that dust bunny as a protected species, so I filed it under 'do not disturb' and will be billing you for the paperwork."
+LINE = "I had 4% battery, a full schedule, and one dust bunny that looked at me funny, so I filed it under 'protected species' and went home."
 
 def main() -> None:
     import os
