@@ -9,6 +9,16 @@ LINE = "I had 4% battery, a full schedule, and one dust bunny that looked at me 
 def main() -> None:
     import os
 
+    # Explicit validation: entry must be non-empty, single-line, <=200 chars.
+    if not LINE:
+        raise SystemExit("error: entry text is empty; expected a non-empty one-line entry")
+    if "\n" in LINE or "\r" in LINE:
+        raise SystemExit("error: entry text must be a single line; found a line break")
+    if len(LINE) > 200:
+        raise SystemExit(
+            f"error: entry text is {len(LINE)} characters; expected 200 or fewer"
+        )
+
     try:
         os.makedirs("/output", exist_ok=True)
         path = "/output/entry.txt"
