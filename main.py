@@ -18,6 +18,8 @@ def main() -> None:
         raise SystemExit(
             f"error: entry text is {len(LINE)} characters; expected 200 or fewer"
         )
+    if LINE != LINE.strip():
+        raise SystemExit("error: entry text must not have leading or trailing whitespace")
 
     try:
         os.makedirs("/output", exist_ok=True)
