@@ -30,6 +30,14 @@ def main() -> None:
     with open(path, "w", encoding="utf-8") as f:
         f.write(LINE)
 
+    # Read-back verification: what landed on disk must match LINE exactly.
+    with open(path, "r", encoding="utf-8") as f:
+        written = f.read()
+    if written != LINE:
+        raise SystemExit(
+            f"error: read-back verification failed; file contains {written!r}, expected {LINE!r}"
+        )
+
 
 if __name__ == "__main__":
     main()
